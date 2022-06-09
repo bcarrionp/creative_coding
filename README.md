@@ -20,3 +20,6 @@
 
 ## Sixth class result
 [![sixth-Class.png](https://i.postimg.cc/6Q1gcdf5/sixth-Class.png)](https://postimg.cc/JyZp4HF9)
+
+## Seventh class result
+[![2022-06-09-14-18-37.png](https://i.postimg.cc/zG6HZf5D/2022-06-09-14-18-37.png)](https://postimg.cc/cv7Lf0rP)

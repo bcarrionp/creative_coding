@@ -28,8 +28,8 @@ const sketch = () => {
     const h = height * 0.1;
     let x, y;
 
-    const num = 12;
-    const radius = width * 0.3;
+    const num = 9;
+    const radius = width * 0.25;
 
     for (i = 0; i < num; i ++){
       const slice = math.degToRad(360 / num);
@@ -41,11 +41,22 @@ const sketch = () => {
       context.save();
       context.translate(x, y);
       context.rotate(-angle);
-      context.scale(random.range(1, 3), 1);
+      context.scale(random.range(0.1, 5), random.range(0.2, 3));
 
       context.beginPath();
-      context.rect(-w * 0.5, -h * 0.5, w, h);
+      context.rect(random.range(0, -w * 1), random.range(0, -h * 0.1), w, h);
       context.fill();
+      context.restore();
+
+      context.save();
+      context.translate(cx, cy);
+      context.rotate(-angle);
+
+      context.lineWidth = random.range(5, 30);
+
+      context.beginPath();
+      context.arc(0, 0, radius * random.range(0.2, 1.5), slice * random.range(1, -8), slice * random.range(1, 5));
+      context.stroke();
       context.restore();
     };
   };
