@@ -17,3 +17,6 @@
 
 ## Fifth class result
 [![fifth-Class.png](https://i.postimg.cc/htP8pNjc/fifth-Class.png)](https://postimg.cc/7fdTLs0W)
+
+## Sixth class result
+[![sixth-Class.png](https://i.postimg.cc/6Q1gcdf5/sixth-Class.png)](https://postimg.cc/JyZp4HF9)
